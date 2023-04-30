@@ -148,5 +148,34 @@ $ cat skills.json
 ```
 
 ## 12. Send 2 files at once to an external repository
+Use git add --> git commit -m --> git push
+``` 
+kv@kvPC MINGW64 /d/Json (main)
+$ git add .
+warning: in the working copy of 'preferences.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills.json', LF will be replaced by CRLF the next time Git touches it
 
+kv@kvPC MINGW64 /d/Json (main)
+$ git commit -m "add preferences and skills"
+[main 0aae7ff] add preferences and skills
+ 2 files changed, 17 insertions(+)
+ create mode 100644 preferences.json
+ create mode 100644 skills.json
+
+kv@kvPC MINGW64 /d/Json (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 527 bytes | 175.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Veronika-Koronets/JSON.git
+   32a4819..0aae7ff  main -> main
+```
+## 13. Create a bug_report.json file on the web interface
+## 14. Make Commit changes (save) changes on the web interface
+## 15. Modify the bug_report.json file, add a bug report in JSON format on the web interface
+## 16.Make Commit changes (save) changes on the web interface.
+## 17. Synchronize external and local JSON repository
 
