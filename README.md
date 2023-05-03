@@ -65,9 +65,7 @@ To https://github.com/Veronika-Koronets/JSON.git
    017e004..d943a0c  main -> main
 ```
 
-
 ## 7. Edit the content of the “new.json” file - write information about yourself (full name, age, number of pets, future desired salary). Everything is written in JSON format.
-.
 ```sh
 kv@kvPC MINGW64 /d/Json (main)
 $ vim new.json
