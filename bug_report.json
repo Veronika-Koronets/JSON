@@ -1,10 +1,15 @@
-{
- "Severity": ,
+{"ID": 12
+ "Severity":  ,
  "Priority":  ,
  "Title":  
  "Environment": ,
- 
-  
-  
-  
+ "Precondition": ,
+ "STR": , 
+ "Expected Result": ,  
+ "Actual result": , 
+ "": , 
+ "Attachment": "(URL to the video)",
+ "Postcondition": "none",
+ "reproducibility": "n/a",
+ "Author": 
 }
