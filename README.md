@@ -113,9 +113,6 @@ $ touch preferences.json
 
 ```
 kv@kvPC MINGW64 /d/Json (main)
-$ touch preferences.json
-
-kv@kvPC MINGW64 /d/Json (main)
 $ vim. preferences.json
 
 kv@kvPC MINGW64 /d/Json (main)
@@ -171,8 +168,16 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Veronika-Koronets/JSON.git
    32a4819..0aae7ff  main -> main
 ```
+or in one string:
+```
+$ git add . && git commit -m "adding preferences.xml and skills.xml" && git push
+```
 ## 13. Create a bug_report.json file on the web interface
+Go to our repo, "Add file" --> "Create new file" 
+
 ## 14. Make Commit changes (save) changes on the web interface
+Press the button "Commit changes"
+
 ## 15. Modify the bug_report.json file, add a bug report in JSON format on the web interface
 ## 16.Make Commit changes (save) changes on the web interface.
 ## 17. Synchronize external and local JSON repository
