@@ -170,7 +170,7 @@ To https://github.com/Veronika-Koronets/JSON.git
 ```
 or in one string:
 ```
-$ git add . && git commit -m "adding preferences.xml and skills.xml" && git push
+$ git add . && git commit -m "adding preferences.json and skills.json" && git push
 ```
 ## 13. Create a bug_report.json file on the web interface
 Go to our repo, "Add file" --> "Create new file" 
