@@ -1,15 +1,19 @@
 {"ID": 12
- "Severity":  ,
- "Priority":  ,
- "Title":  
- "Environment": ,
- "Precondition": ,
- "STR": , 
- "Expected Result": ,  
- "Actual result": , 
- "": , 
- "Attachment": "(URL to the video)",
+ "Severity": "major" ,
+ "Priority": "high" ,
+ "Title":  "not all sections are displayed when the main page is reloaded",
+ "Environment": [
+                 "Samsung Galaxy A12 Android 12, Opera", 
+                 "Windows 10, Opera"
+ ],
+ "Precondition": "open Opera",
+ "STR": [
+         "press restart character in address bar" 
+         "at the top of the page pull down on the mobile phone"
+  ],
+ "Expected Result": "all page sections are present",  
+ "Actual result": "not all sections are present", 
+ "Attachment": "video",
  "Postcondition": "none",
- "reproducibility": "n/a",
- "Author": 
+ "Author": "@nick"
 }
