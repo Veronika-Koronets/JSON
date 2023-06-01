@@ -181,4 +181,47 @@ Press the button "Commit changes"
 ## 15. Modify the bug_report.json file, add a bug report in JSON format on the web interface
 ## 16.Make Commit changes (save) changes on the web interface.
 ## 17. Synchronize external and local JSON repository
+To extract and download content from a remote repository and immediately update the local repository with this content use ``git pull`` command
+```
+kv@kvPC MINGW64 /d/JSON (main)
+$ git pull
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 30 (delta 12), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (30/30), 8.68 KiB | 82.00 KiB/s, done.
+From https://github.com/Veronika-Koronets/JSON
+   0aae7ff..eba7a70  main       -> origin/main
+Updating 0aae7ff..eba7a70
+Fast-forward
+ README.md       | 185 +++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ bug_report.json |  19 ++++++
+ 2 files changed, 203 insertions(+), 1 deletion(-)
+ create mode 100644 bug_report.json
 
+kv@kvPC MINGW64 /d/JSON (main)
+$ ls
+README.md  bug_report.json  new.json  preferences.json  skills.json
+
+kv@kvPC MINGW64 /d/JSON (main)
+$ cat bug_report.json
+{"ID": 12
+ "Severity": "major" ,
+ "Priority": "high" ,
+ "Title":  "not all sections are displayed when the main page is reloaded",
+ "Environment": [
+                 "Samsung Galaxy A12 Android 12, Opera",
+                 "Windows 10, Opera"
+ ],
+ "Precondition": "open Opera",
+ "STR": [
+         "press restart character in address bar"
+         "at the top of the page pull down on the mobile phone"
+  ],
+ "Expected Result": "all page sections are present",
+ "Actual result": "not all sections are present",
+ "Attachment": "video",
+ "Postcondition": "none",
+ "Author": "@nick"
+}
+```
